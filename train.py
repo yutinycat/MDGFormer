@@ -147,7 +147,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--epoch', type=int, default=100, help='epoch number')
-    parser.add_argument('--lr', type=float, default=3e-4, help='learning rate')
+    parser.add_argument('--lr', type=float, default=5e-4, help='learning rate')
     parser.add_argument('--batchsize', type=int, default=4, help='training batch size')
     parser.add_argument('--trainsize', type=int, default=384, help='training dataset size')
     parser.add_argument('--clip', type=float, default=0.5, help='gradient clipping margin')
